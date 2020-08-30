@@ -21,6 +21,6 @@
     <module>rocketMq</module>
     <module>springboot-activimq</module>
     <module>springboot-kafka</module>
-    <module>springboot-rocketMq</module>
+    <module>springboot-rocketmq</module>
   </modules>
 </project>

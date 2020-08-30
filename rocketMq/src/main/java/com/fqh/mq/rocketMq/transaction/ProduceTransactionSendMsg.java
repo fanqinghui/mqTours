@@ -32,6 +32,7 @@ public class ProduceTransactionSendMsg {
       public LocalTransactionState checkLocalTransaction(MessageExt msg) {
         System.out.println("==checkLocalTransaction:msg:"+new String(msg.getBody()));
         //return LocalTransactionState.UNKNOW;
+        //return LocalTransactionState.ROLLBACK_MESSAGE;
         return LocalTransactionState.COMMIT_MESSAGE;
       }
     });
